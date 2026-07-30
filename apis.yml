@@ -1,7 +1,24 @@
 aid: lsi-logic
-name: Lsi Logic
-description: Lsi Logic is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lsi-logic.png
+name: LSI Logic
+description: LSI Logic Corporation was an American semiconductor company known for
+  application-specific integrated circuits (ASICs), custom system-on-chip designs,
+  and storage/RAID controller silicon. It was surfaced as a portfolio company of Mayfield
+  and added to the API Evangelist network as a stub. The company was acquired by Avago
+  Technologies in 2014 and its assets are now part of Broadcom; its former lsi.com
+  domain redirects to broadcom.com. LSI Logic operates no independent public developer
+  API program.
 url: https://raw.githubusercontent.com/api-evangelist/lsi-logic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,28 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: broadcom
+x-note: Acquired by Avago Technologies (2014); now part of Broadcom. No independent
+  developer API surface. lsi.com redirects to broadcom.com (verified 2026-07-20).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductor
+- Hardware
+- Integrated Circuits
+- Storage
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
