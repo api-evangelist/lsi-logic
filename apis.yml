@@ -30,7 +30,7 @@ x-status: acquired
 x-acquired-by: broadcom
 x-note: Acquired by Avago Technologies (2014); now part of Broadcom. No independent
   developer API surface. lsi.com redirects to broadcom.com (verified 2026-07-20).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
