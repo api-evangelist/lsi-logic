@@ -23,13 +23,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lsi-logic.png
 name: LSI Logic
-description: LSI Logic Corporation was an American semiconductor company known for
-  application-specific integrated circuits (ASICs), custom system-on-chip designs,
-  and storage/RAID controller silicon. It was surfaced as a portfolio company of Mayfield
-  and added to the API Evangelist network as a stub. The company was acquired by Avago
-  Technologies in 2014 and its assets are now part of Broadcom; its former lsi.com
-  domain redirects to broadcom.com. LSI Logic operates no independent public developer
-  API program.
+description: LSI Logic Corporation was an American semiconductor company known for application-specific
+  integrated circuits (ASICs), custom system-on-chip designs, and storage/RAID controller silicon. It
+  was surfaced as a portfolio company of Mayfield and added to the API Evangelist network as a stub. The
+  company was acquired by Avago Technologies in 2014 and its assets are now part of Broadcom; its former
+  lsi.com domain redirects to broadcom.com. LSI Logic operates no independent public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/lsi-logic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,13 +35,13 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: broadcom
-x-note: Acquired by Avago Technologies (2014); now part of Broadcom. No independent
-  developer API surface. lsi.com redirects to broadcom.com (verified 2026-07-20).
+x-note: Acquired by Avago Technologies (2014); now part of Broadcom. No independent developer API surface.
+  lsi.com redirects to broadcom.com (verified 2026-07-20).
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Semiconductors
